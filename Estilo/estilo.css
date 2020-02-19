@@ -53,7 +53,7 @@ header nav ul li{
   }
 
 
-/*MAIN*/
+/*MAIN GENERALIDADES*/
 
 main {
     width: 100%;
@@ -62,6 +62,9 @@ main {
 main img {
     width:100%;
 }
+
+/*MAIN ESPECIFICIDADES*/
+/*letra sobre blanco: #4A4A4A*/
 
 
   /*FOOTER*/
