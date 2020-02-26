@@ -24,12 +24,29 @@ header img {
     height: 90px;;
 }
 
+nav button{
+    background-color: transparent;
+    outline: none;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    border-right: 1.5px solid #003841;
+    text-align: center;
+    padding-right: 23px;
+    padding-left:23px;
+    margin-top: 35px;
+}
+
 header nav a {
+    font-family: 'Montserrat','sans-serif';
+    font-size: 15px;
+    font-weight: 600;
     text-decoration: none;
     color: white;
     display: inline-flex;
-    margin-right: 25px; 
-    padding-top: 25px;  
+    padding-top: 5px;  
+    padding-bottom: 5px;
+    text-align: center;
 }
 
 header nav a:active {
@@ -42,18 +59,19 @@ header nav a:hover {
     color:#003841;
 }
 
-header nav ul li{
+header nav button{
     display: inline-flex;
     justify-content: space-between;
+    
  }
 
- header nav ul li a:last-child{
+ header nav button:last-child{
     margin-right: none;
     border-right: none;
   }
 
 
-/*MAIN GENERALIDADES*/
+/*MAIN GENERAL*/
 
 main {
     width: 100%;
@@ -63,7 +81,94 @@ main img {
     width:100%;
 }
 
-/*MAIN ESPECIFICIDADES*/
+main h1{
+    font-weight: 600;
+}
+/*MAIN HOME*/
+
+.homediv1{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    opacity: 0.5;
+    position: absolute;
+    bottom: 125px;
+    z-index: 20;
+}
+
+.homediv2{
+    font-family: 'Montserrat', 'sans serif' ;
+    font-weight: 600;
+    font-size: 30px;
+    color:#003841;
+    justify-content: right;
+    padding-right: 0px;
+    position: absolute;
+    bottom:170px;
+    left: 860px;
+    z-index: 30;
+    
+}
+.homediv3{
+    font-family: 'Montserrat', 'sans serif' ;
+    font-weight: 600;
+    font-size: 30px;
+    color:#003841;
+    justify-content: right;
+    padding-right: 0px;
+    position: absolute;
+    bottom:122px;
+    left: 665px;
+    z-index: 30;
+    
+}
+
+/*MAIN NOSOTROS*/
+
+/*MAIN SERVICIOS*/
+
+/*MAIN CONTACTO*/
+
+.contacto1{
+    display:flexbox;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: white;
+    color: #003841;
+    font-family: 'Montserrat', 'sans serif';
+    font-weight: 500;
+    font-size: 24px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-left: 165px;
+    
+}
+
+.contacto2{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:#F0F0F0;
+    color: #212121;
+    font-family: 'Montserrat', 'sans serif';
+    padding-top: 55px;
+    width:100%;
+}
+
+iframe {
+    padding-bottom: 60px;
+    padding-top: 15px;
+}
+
+.contacto3{
+    text-align: center;
+    padding-left: 0%;
+    font-weight: 600;
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+
+
 /*letra sobre blanco: #4A4A4A*/
 
 
