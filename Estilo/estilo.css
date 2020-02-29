@@ -90,7 +90,7 @@ main h1{
     width: 100%;
     height: 150px;
     background-color: white;
-    opacity: 0.5;
+    
     position: absolute;
     bottom: 125px;
     z-index: 20;
@@ -122,6 +122,51 @@ main h1{
     z-index: 30;
     
 }
+
+article{
+    font-family: 'Montserrat', 'sans serif' ;
+    font-weight: 500;
+    font-size: 25px;
+    color:#003841; 
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+
+.ofrecemos{
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: white;
+    
+}
+
+.ofrecemos img{
+    width: 10%;
+    margin-right: 30px;
+}
+
+
+.ofrecemos2{
+    width: 100%;
+    color: #212121;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: 500;
+    margin-bottom: 80px;
+    background-color: white;
+}
+
+.intro{
+    background-color:#07617A;
+    color: white;
+    padding-bottom:30px;
+}
+
 
 /*MAIN NOSOTROS*/
 
@@ -218,8 +263,8 @@ iframe {
     color: white;
     background-color:#07617A;
     width: 100%;
-    height: 30px;
-    padding-top: none;
+    height: 40px;
+    padding-top: 5px;
     font-size:11px;
     text-decoration: none;
   }

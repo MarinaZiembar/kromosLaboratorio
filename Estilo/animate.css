@@ -1466,7 +1466,7 @@
   }
 
   to {
-    opacity: 0.5;
+    opacity: 0.75;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
