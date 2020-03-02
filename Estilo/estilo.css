@@ -3,13 +3,13 @@ body {
     background-color: white;
     margin:0;
     padding:0;
+    font-family: 'Montserrat','sans serif';
 }
 
-/*HEADER*/
+/**************HEADER*******************/
 
 header {
     background-color: #1B84A1;
-    font-family: 'Montserrat','sans-serif';
     font-size: 16px;
     font-weight: 600;
     display: inline-flex;
@@ -24,7 +24,10 @@ header img {
     height: 90px;;
 }
 
+/*NAV BAR*/
+
 nav button{
+    font-family: 'Montserrat','sans serif';
     background-color: transparent;
     outline: none;
     border-left: none;
@@ -38,7 +41,6 @@ nav button{
 }
 
 header nav a {
-    font-family: 'Montserrat','sans-serif';
     font-size: 15px;
     font-weight: 600;
     text-decoration: none;
@@ -71,7 +73,7 @@ header nav button{
   }
 
 
-/*MAIN GENERAL*/
+/****MAIN GENERAL******/
 
 main {
     width: 100%;
@@ -84,7 +86,9 @@ main img {
 main h1{
     font-weight: 600;
 }
-/*MAIN HOME*/
+/**********MAIN HOME************/
+
+/*PORTADA*/
 
 .homediv1{
     width: 100%;
@@ -97,7 +101,6 @@ main h1{
 }
 
 .homediv2{
-    font-family: 'Montserrat', 'sans serif' ;
     font-weight: 600;
     font-size: 30px;
     color:#003841;
@@ -110,7 +113,6 @@ main h1{
     
 }
 .homediv3{
-    font-family: 'Montserrat', 'sans serif' ;
     font-weight: 600;
     font-size: 30px;
     color:#003841;
@@ -123,13 +125,13 @@ main h1{
     
 }
 
+/*ARTICULOS HOME*/
+
 article{
-    font-family: 'Montserrat', 'sans serif' ;
     font-weight: 500;
     font-size: 25px;
     color:#003841; 
     text-align: center;
-    padding-top: 40px;
 
 }
 
@@ -155,7 +157,6 @@ article{
     flex-direction: row;
     justify-content: space-evenly;
     font-size: 20px;
-    padding-top: 15px;
     font-weight: 500;
     margin-bottom: 80px;
     background-color: white;
@@ -167,12 +168,18 @@ article{
     padding-bottom:30px;
 }
 
+.titulo{
+    font-weight: 600;
+    padding-top:65px;
+    padding-bottom: 30px;
+}
 
-/*MAIN NOSOTROS*/
 
-/*MAIN SERVICIOS*/
+/**********MAIN NOSOTROS**************/
 
-/*MAIN CONTACTO*/
+/**********MAIN SERVICIOS**************/
+
+/***********MAIN CONTACTO**************/
 
 .contacto1{
     display:flexbox;
@@ -180,7 +187,6 @@ article{
     justify-content: space-evenly;
     background-color: white;
     color: #003841;
-    font-family: 'Montserrat', 'sans serif';
     font-weight: 500;
     font-size: 24px;
     padding-top: 25px;
@@ -195,7 +201,6 @@ article{
     justify-content: space-evenly;
     background-color:#F0F0F0;
     color: #212121;
-    font-family: 'Montserrat', 'sans serif';
     padding-top: 55px;
     width:100%;
 }
@@ -214,15 +219,11 @@ iframe {
 }
 
 
-/*letra sobre blanco: #4A4A4A*/
-
-
-  /*FOOTER 1*/
+  /*************FOOTER 1****************/
 
   .footer1 {
     background-color: #1B84A1;
     height:60px;
-    font-family: 'Montserrat','sans-serif';
     font-size: 14px;
     font-weight: 500;
     display: inline-flex;
@@ -253,12 +254,11 @@ iframe {
     padding-right: none;
   }
 
-  /*FOOTER 2*/
+  /************FOOTER 2*****************/
 
   .footer2{
     display: inline-flex;
     justify-content: space-around;
-    font-family: 'Montserrat','sans serif';
     font-weight: 300;
     color: white;
     background-color:#07617A;
