@@ -1,10 +1,16 @@
 body {
     box-sizing: border-box;
     background-color: white;
-    margin:0;
-    padding:0;
+    margin:0px;
+    padding:0px;
     font-family: 'Montserrat','sans serif';
 }
+
+p{
+    margin:0px;
+}
+
+
 
 /**************HEADER*******************/
 
@@ -21,7 +27,7 @@ header {
    }
 
 header img {
-    height: 90px;;
+    height: 90px;
 }
 
 /*NAV BAR*/
@@ -77,6 +83,8 @@ header nav button{
 
 main {
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 main img {
@@ -86,55 +94,142 @@ main img {
 main h1{
     font-weight: 600;
 }
+
+
 /**********MAIN HOME************/
 
-/*PORTADA*/
+
+/*CAROUSEL*/
+.slideshow-container {
+  width:100%;
+  position: relative;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  z-index: 40;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: #1B84A1;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
 
 .homediv1{
     width: 100%;
     height: 150px;
     background-color: white;
-    
     position: absolute;
-    bottom: 125px;
+    bottom: 80px;
     z-index: 20;
 }
 
 .homediv2{
-    font-weight: 600;
+    font-weight: 500;
     font-size: 30px;
     color:#003841;
     justify-content: right;
     padding-right: 0px;
     position: absolute;
-    bottom:170px;
+    bottom:155px;
     left: 860px;
     z-index: 30;
     
 }
 .homediv3{
-    font-weight: 600;
+    font-weight: 500;
     font-size: 30px;
     color:#003841;
     justify-content: right;
     padding-right: 0px;
     position: absolute;
-    bottom:122px;
+    bottom:110px;
     left: 665px;
     z-index: 30;
     
 }
 
-/*ARTICULOS HOME*/
+.b1{
+    left: 885px; 
+}
+.b2{
+    left: 720px;
+}
+.c1{
+    left:935px;
+}
+.c2{
+    left:600px;
+}
+
+
+/*ARTICULO HOME 1*/
+
+.intro{
+    background-color:#07617A;
+    font-size: 22px;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 68px;
+}
+.intro p{
+    padding-top: 18px;
+}
+
+/*ARTICULO HOME 2*/
 
 article{
     font-weight: 500;
-    font-size: 25px;
+    font-size: 20px;
     color:#003841; 
     text-align: center;
-
+    display: flex;
+    flex-direction: column;
 }
 
+.titulo{
+    font-weight: 600;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    font-size: 23px;
+}
 
 .ofrecemos{
     display: inline-flex;
@@ -158,26 +253,53 @@ article{
     justify-content: space-evenly;
     font-size: 20px;
     font-weight: 500;
-    margin-bottom: 80px;
+    padding-bottom: 85px;
+    padding-top: 20px;
     background-color: white;
+
 }
 
-.intro{
-    background-color:#07617A;
-    color: white;
-    padding-bottom:30px;
+/*ARTICULO HOME 3*/
+
+.turnos{
+    width:100%;
+    display: flexbox;
+    justify-content: center;
 }
 
-.titulo{
-    font-weight: 600;
-    padding-top:65px;
-    padding-bottom: 30px;
+.turnos1{
+    width: 100%;
+    height: 265px;
+    opacity: 0.6;
+    background-color: black;
+    position: absolute;
+    bottom: px;
+    z-index: 20;
+}
+.turnos2 {
+    font-weight: 500;
+    font-size: 35px;
+    color:white;
+    position: absolute;
+    z-index: 30;
+    padding-top:30px;
+    width:100%;
+    text-align: center;
+}
+
+.turnos2 a{
+    color:#1B84A1;
+}
+.turnos2 p{
+    padding-top: 12px;
 }
 
 
 /**********MAIN NOSOTROS**************/
 
-/**********MAIN SERVICIOS**************/
+/**********MAIN ESTUDIOS**************/
+
+/**********MAIN SERVICIOS A TERCEROS**************/
 
 /***********MAIN CONTACTO**************/
 
@@ -189,12 +311,14 @@ article{
     color: #003841;
     font-weight: 500;
     font-size: 24px;
-    padding-top: 25px;
-    padding-bottom: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     padding-left: 165px;
     
 }
-
+.contacto1 p{
+    padding-top: 10px;
+}
 .contacto2{
     display: inline-flex;
     flex-direction: row;
@@ -203,6 +327,10 @@ article{
     color: #212121;
     padding-top: 55px;
     width:100%;
+}
+
+.contacto2 p{
+    padding-top: 15px;
 }
 
 iframe {
@@ -215,7 +343,7 @@ iframe {
     padding-left: 0%;
     font-weight: 600;
     padding-top: 35px;
-    padding-bottom: 25px;
+    padding-bottom: 35px;
 }
 
 
@@ -230,7 +358,7 @@ iframe {
     flex-direction: row;
     width:100%;
     justify-content: center;
-    padding-top: 50px;
+    padding-top: 60px;
     padding-bottom: 25px;
     color: white;
   }
@@ -238,9 +366,11 @@ iframe {
   .footer1 img {
     height: 40px;
     margin-right: 15px;
-    padding-top: 6px;
   }
 
+  .footer1 p{
+      padding-top: 10px;
+  }
 
   .footer1 div {
     display: inline-flex;
@@ -263,8 +393,8 @@ iframe {
     color: white;
     background-color:#07617A;
     width: 100%;
-    height: 40px;
-    padding-top: 5px;
+    height: 30px;
+    padding-top: 20px;
     font-size:11px;
     text-decoration: none;
   }
