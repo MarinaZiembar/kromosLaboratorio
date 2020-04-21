@@ -162,42 +162,26 @@ main h1{
 }
 
 .homediv2{
+    margin-left: 100px;
     font-weight: 500;
     font-size: 30px;
     color:#003841;
-    justify-content: right;
-    padding-right: 0px;
     position: absolute;
     bottom:155px;
-    left: 860px;
     z-index: 30;
     
 }
 .homediv3{
+    margin-left: 100px;
     font-weight: 500;
     font-size: 30px;
     color:#003841;
-    justify-content: right;
-    padding-right: 0px;
     position: absolute;
     bottom:110px;
-    left: 665px;
     z-index: 30;
     
 }
 
-.b1{
-    left: 885px; 
-}
-.b2{
-    left: 720px;
-}
-.c1{
-    left:935px;
-}
-.c2{
-    left:600px;
-}
 
 
 /*ARTICULO HOME 1*/
