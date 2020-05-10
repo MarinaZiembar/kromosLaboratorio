@@ -353,6 +353,16 @@ iframe {
     padding-right: none;
   }
 
+  .footer1 a{
+    text-decoration: none;
+    background-color: #1B84A1;
+    font-size: 14px;
+    font-weight: 500;
+    color: white; 
+    padding-top: 10px;  
+  }
+
+
   /************FOOTER 2*****************/
 
   .footer2{
