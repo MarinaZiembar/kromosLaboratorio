@@ -261,10 +261,89 @@ article{
 
 .nosotros{
     width: 100%;
-    margin-top: 60px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+.sobreNosotros{
+    width: 95%;
+    display: inline-flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
 
+.sobreNosotros img{
+    width:49.45%;
+    margin: 0;
+}
+
+.sobreNosotros p{
+    background-color:#F0F0F0;
+}
+
+.equipoDirectores{
+    width:50%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.miembro{
+    width:45%;
+    height:440px;
+    background-color:#F0F0F0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.miembro .user{
+    width:220px;
+    height: 220px;
+    border-radius: 110px;
+    position: relative;
+    top:-80px;
+}
+
+.miembro h2{
+    font-size: 26px;
+    padding-right: 20px;
+    padding-left: 20px;
+    position: relative;
+    top:-78px;
+}
+
+.miembro h3 {
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    top:-100px;
+}
+
+.miembro p{
+    font-weight:400;
+    position: relative;
+    top:-85px;
+    padding-bottom: 8px;
+}
+
+.miembro .linkedin{
+    width:100%;
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top:-50px;
+}
+
+.miembro .linkedin img{
+    width:30px;
+    height:30px;
+}
 
 /**********MAIN ESTUDIOS**************/
 
