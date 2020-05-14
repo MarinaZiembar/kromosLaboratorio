@@ -290,6 +290,7 @@ article{
     display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 110px;
 }
 
 .miembro{
@@ -357,6 +358,7 @@ article{
     flex-direction:row;
     justify-content: space-between;
     margin-top:110px;
+    flex-wrap: wrap;
 }
 
 
