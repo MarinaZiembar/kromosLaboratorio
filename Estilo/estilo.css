@@ -289,7 +289,7 @@ article{
 /***NUESTRO EQUIPO***/
 
 .equipoDirectores{
-    width:683px;
+    width:50%;
     display: inline-flex;
     flex-direction: row;
     justify-content: space-between;
@@ -351,17 +351,21 @@ article{
     height:30px;
 }
 
-.equipo .miembro{
-    height:416px;
+.equipos{
+    width:80%;
 }
 
 .equipo{
-    width:1092.8px;
+    width:100%;
     display:flex;
     flex-direction:row;
     justify-content: space-between;
-    margin-top:110px;
-    flex-wrap: wrap;
+    margin-top:100px;
+    flex-wrap:wrap;
+}
+
+.equipo .miembro{
+    height:416px;
 }
 
 

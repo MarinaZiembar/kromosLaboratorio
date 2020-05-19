@@ -280,15 +280,52 @@
     }
 
     .estudiosBoton1:after {
-      font-size: 35px;
+      font-size: 25px;
     }
   
     .estudiosBoton2:after {
-      font-size: 35px;
+      font-size: 25px;
     }
     
     .estudiosBoton1 .active:after {
-      font-size: 50px; 
+      font-size: 40px; 
     }
+
+    /************NOSOTROS**************/
+  
+    .sobreNosotros{
+      width: 95%;
+      display:flex;
+      flex-direction: column;
+      margin-bottom: 15px;
+  }
+
+    .sobreNosotros:first-child{
+     margin-top: -30px;
+    }
+
+    .sobreNosotros img{
+      min-width:100%;
+      margin: 0;
+  }
+  
+  .sobreNosotros p{
+      min-width:100%;
+      padding: 50px 50px 0 50px;
+      font-size: 10px;
+  }
+
+  .equipoDirectores{
+    width:100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 110px;
+}
+
+.miembro{
+  margin-bottom: 140px;
+}
+
+
 
 }
