@@ -1,5 +1,6 @@
 
-/***********PARTIALS*************/
+
+/******************PARTIALS********************/
 
 @media (max-width:767px){
 
@@ -129,7 +130,7 @@
     /**********FOOTERS************/
 
     .footer1{
-        min-height: 80px;
+        min-height: 70px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -144,7 +145,7 @@
         flex-direction: column;
         align-items:center;
         align-self: center;
-        padding-top: 15px;
+        padding-top: 10px;
     }
 
     .footer1 img{
@@ -158,7 +159,6 @@
 
     .footer1 a{
         padding-top: 0%;
-        padding-bottom: 20px;
         background-color:none;
     }
 
@@ -176,7 +176,7 @@
     }
 }
 
-/************PAGINAS************/
+/************************PAGINAS***************************/
 
 @media (max-width:767px){
 
@@ -201,5 +201,8 @@
       padding-left: 20px;
     }
 
-    
+    .contacto3{
+      font-size: 18px;
+    }
+
 }

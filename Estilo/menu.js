@@ -16,5 +16,15 @@
     $('iframe').attr('width','400px')
     .attr('height','300px');
   }
+
+  //funcion para mailto en FOOTER
+  if ($(window).width() > 767){
+    $(function () {
+      $('.mailto').on("click", function (e) {
+          e.preventDefault();
+      });
+  });
+  }
+
 });
 

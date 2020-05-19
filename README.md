@@ -12,3 +12,4 @@
 *Dentro de menu.js están:
 	-función del Menú hamburguesa (mobile).
 	-función del iframe del google maps (mobile).
+	-función para activar el mail del footer (mobile).
