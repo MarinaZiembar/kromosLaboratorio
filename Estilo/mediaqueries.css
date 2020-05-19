@@ -176,9 +176,11 @@
     }
 }
 
-/**********CONTACTO***********/
+/************PAGINAS************/
 
 @media (max-width:767px){
+
+  /*********CONTACTO**********/
 
     .contacto1{
       padding:25px 10px 30px 15px;
@@ -198,4 +200,6 @@
     .contacto2 h1{
       padding-left: 20px;
     }
+
+    
 }
