@@ -205,4 +205,90 @@
       font-size: 18px;
     }
 
+    /******SERVICIOS A TERCEROS*******/
+
+    .terceros1 p{
+      font-size: 16px;
+      padding:0 15px 0 15px;
+    }
+
+    .terceros1 h1{
+      padding-bottom:15px;
+    }
+
+    .terceros2{
+      width:100%;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .serviciosTerceros{
+      max-height:510px;
+      width:100%;
+    }
+
+
+    /************ESTUDIOS************/
+
+    .estudios h1{
+      margin-bottom:40px;
+    }
+
+    .estudios p{
+      font-size: 16px;
+      padding:0 25px 0 25px;
+    }
+
+    .estudios{
+      width:100%;
+    }
+
+    .estudiosBoton1 {
+      margin-bottom: 10px;
+      font-size: 10px;
+      font-weight: 700;
+    }
+
+    .estudiosBoton1 img{
+      padding:12px 20px 12px 10px;
+      width: 70px;
+      height: 70px;
+    }
+
+    .estudiosBoton2 {
+      margin-bottom: 10px;
+      font-size: 10px;
+      font-weight: 700;
+    }
+
+    .estudiosBoton2 img{
+      padding:12px 20px 12px 10px;
+      width: 70px;
+      height: 70px;
+    }
+    
+    .estudiosDescripcion {
+      padding: 0 18px;
+    }
+  
+    .estudiosDescripcion ul{
+        margin:20px 0px 25px 0px;
+    }
+  
+    .estudiosDescripcion ul li{
+        font-size: 11px;
+    }
+
+    .estudiosBoton1:after {
+      font-size: 35px;
+    }
+  
+    .estudiosBoton2:after {
+      font-size: 35px;
+    }
+    
+    .estudiosBoton1 .active:after {
+      font-size: 50px; 
+    }
+
 }
