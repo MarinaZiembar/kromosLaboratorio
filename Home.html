@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="estilo/estilo.css">
     <link rel="stylesheet" href="estilo/mediaqueries.css">
     <link rel="stylesheet" href="estilo/animate.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <link rel="shortcut icon" type="image/png" href="Img/Favicon.png">
     <title>Inicio | Kromos Laboratorio </title>
   </head>
@@ -14,17 +15,25 @@
 
      <header>
 
-      <a href="Home.html"><img  src="Img\Logo.png" alt="LogoKromos"></a> 
-         
-          <nav>
-          
+      <a href="Home.html"><img class="animated fadeIn" src="Img\Logo.png" alt="LogoKromos"></a>
+      
+      <div class="wrapper">
+        <div class="container">
+          <div class="hamburger_btn">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+          </div>
+      
+          <nav class="menu">
                   <button><a href="Home.html" class="selected">Inicio </a></button>
                   <button><a href="Nosotros.html">Nosotros</a></button>
                   <button><a href="Estudios.html">Estudios</a></button>
-                  <button><a href="ServiciosATerceros.html">Servicios a terceros</a></button>
+                  <button><a href="ServiciosATerceros.html">Servicios a terceros</a></button>                 
                   <button><a href="Contacto.html">Contacto</a></button>
-              
           </nav>
+        </div>
+      </div>
 
 </header>
 
@@ -55,29 +64,29 @@
 </div>
 
         <article class='intro'>
-            <p class='wow fadeIn' data-wow-offset="10" data-wow-duration='2s'>Somos una empresa especializada en citogenética,</p>
-            <p class='wow fadeIn'data-wow-offset="10" data-wow-duration='2s'>con más de 50.000 estudios realizados hasta el momento.</p>
+            <p class='wow fadeIn'  data-wow-duration='2s'>Somos una empresa especializada en citogenética,</p>
+            <p class='wow fadeIn' data-wow-duration='2s'>con más de 50.000 estudios realizados hasta el momento.</p>
           </article>
         <article class='titulo wow fadeIn'data-wow-offset="10"data-wow-duration='2s'>
             <p>En Kromos te ofrecemos:</p>
             <br>
           </article>
           <article class='ofrecemos'>
-            <img class='wow fadeInDown' data-wow-offset="14" data-wow-duration='2s' src="Img\ofrecemos1.png" alt="Microscopio">
-            <img class='wow fadeInDown' data-wow-offset="14" data-wow-duration='2s' data-wow-delay='0.5s' src="Img\ofrecemos2.png" alt="Probetas">
-            <img class='wow fadeInDown' data-wow-offset="14" data-wow-duration='2s' data-wow-delay='1s' src="Img\ofrecemos3.png" alt="Precisión">
-            <img class='wow fadeInDown' data-wow-offset="14" data-wow-duration='2s' data-wow-delay='1.5s' src="Img\ofrecemos4.png" alt="Notepad">
+            <img class='wow fadeInDown' data-wow-duration='2s' src="Img\ofrecemos1.png" alt="Microscopio">
+            <img class='wow fadeInDown' data-wow-duration='2s' data-wow-delay='0.5s' src="Img\ofrecemos2.png" alt="Probetas">
+            <img class='wow fadeInDown' data-wow-duration='2s' data-wow-delay='1s' src="Img\ofrecemos3.png" alt="Precisión">
+            <img class='wow fadeInDown' data-wow-duration='2s' data-wow-delay='1.5s' src="Img\ofrecemos4.png" alt="Notepad">
           </article>
           <article class='ofrecemos2'>
-            <div class='wow fadeInDown' data-wow-offset="14" data-wow-duration='2s'><p>Excelencia</p><p>técnica</p></div>
-            <div class='wow fadeInDown' data-wow-offset="14" data-wow-duration='2s' data-wow-delay='0.5s' ><p>Altos estándares</p><p>de calidad</p></div>
-            <div class='wow fadeInDown' data-wow-offset="14" data-wow-duration='2s' data-wow-delay='1s' ><p>Precisión en</p><p>los resultados</p></div>
-            <div class='wow fadeInDown' data-wow-offset="14" data-wow-duration='2s' data-wow-delay='1.5s' ><p>Asesoramiento</p><p>personalizado</p></div> 
+            <div class='wow fadeInDown' data-wow-duration='2s'><p>Excelencia</p><p>técnica</p></div>
+            <div class='wow fadeInDown' data-wow-duration='2s' data-wow-delay='0.5s' ><p>Altos estándares</p><p>de calidad</p></div>
+            <div class='wow fadeInDown' data-wow-duration='2s' data-wow-delay='1s' ><p>Precisión en</p><p>los resultados</p></div>
+            <div class='wow fadeInDown' data-wow-duration='2s' data-wow-delay='1.5s' ><p>Asesoramiento</p><p>personalizado</p></div> 
           </article>
-          <article class='turnos wow fadeIn'data-wow-offset="10">
+          <article class='turnos wow fadeIn'>
             <img src="Img\extracciones.png" alt="extracciones">
             <div class="turnos1 wow fadeIn"></div>
-            <div class="turnos2 wow fadeInDown"data-wow-duration='2s' data-wow-offset="14" ><p>¿Necesitás un turno?</p><p><a href="Contacto.html" style='text-decoration:none'>Consultá nuestros horarios de atención</a></p></div>
+            <div class="turnos2 wow fadeInDown"data-wow-duration='2s'><p>¿Necesitás un turno?</p><p><a href="Contacto.html" style='text-decoration:none'>Consultá nuestros horarios de atención</a></p></div>
           </article>
 
          </main>
@@ -102,7 +111,7 @@
         <p>© 2020 Kromos Laboratorio de Citogenética | Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik" target="_blank">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">Flaticon</a> | Web design & development by <a href="https://www.linkedin.com/in/marina-ziembar/" target="_blank">Mar!na</a></p>
       </footer>
       
-
+      <script src="Estilo/menu.js"></script>
       <script src='Estilo/slideshow.js'></script>
       <script src="Estilo/wow.min.js"></script>
       <script> new WOW().init();</script>

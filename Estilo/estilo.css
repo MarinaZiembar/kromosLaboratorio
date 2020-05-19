@@ -281,6 +281,9 @@ article{
 
 .sobreNosotros p{
     background-color:#F0F0F0;
+    width:49.45%;
+    padding: 50px 50px 0 50px;
+    font-size: 22px;
 }
 
 /***NUESTRO EQUIPO***/
@@ -433,7 +436,15 @@ article{
     font-size: 35px;
   }
   
-  .active:after {
+  .estudiosBoton1 .active:after {
+    flex-grow: 2;
+    text-align: right;
+    content: "-";
+    font-weight: 500;
+    font-size: 50px; 
+  }
+
+  .estudiosBoton2 .active:after {
     flex-grow: 2;
     text-align: right;
     content: "-";
@@ -505,7 +516,7 @@ article{
 .serviciosTerceros{
     width:370px;
     color:white;
-    padding: 50px 0 50px 0;
+    padding: 50px 0 60px 0;
 }
 
 .serviciosTerceros button{
@@ -554,6 +565,7 @@ iframe {
 }
 
 .contacto3{
+    width:100%;
     text-align: center;
     padding-left: 0%;
     font-weight: 600;

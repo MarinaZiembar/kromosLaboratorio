@@ -7,44 +7,55 @@
     <link rel="stylesheet" href="estilo/estilo.css">
     <link rel="stylesheet" href="estilo/mediaqueries.css">
     <link rel="stylesheet" href="estilo/animate.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <link rel="shortcut icon" type="image/png" href="Img/Favicon.png">
     <title>Estudios | Kromos Laboratorio</title>
   </head>
   <body class="animated fadeIn">
     <header>
 
-      <a href="Home.html"><img class="animated fadeIn" src="Img\Logo.png" alt="LogoKromos"></a> 
-         
-          <nav>
+      <a href="Home.html"><img class="animated fadeIn" src="Img\Logo.png" alt="LogoKromos"></a>
+      
+      <div class="wrapper">
+        <div class="container">
+          <div class="hamburger_btn">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+          </div>
+      
+          <nav class="menu">
                   <button><a href="Home.html">Inicio </a></button>
                   <button><a href="Nosotros.html">Nosotros</a></button>
                   <button><a href="Estudios.html">Estudios</a></button>
-                  <button><a href="ServiciosATerceros.html" class="selected">Servicios a terceros</a></button>
+                  <button><a href="ServiciosATerceros.html"class="selected">Servicios a terceros</a></button>                 
                   <button><a href="Contacto.html">Contacto</a></button>
           </nav>
+        </div>
+      </div>
 
 </header>
 
         <div class="terceros1">
           <h1 class="wow animate fadeInDown">SERVICIOS A TERCEROS</h1>
-          <p class="wow animate fadeInDown"style="padding:18px 250px 15px 250px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem ea exercitationem fugiat voluptate reprehenderit optio, praesentium repudiandae. Dignissimos quam pariatur ad quos sint, adipisci aliquam ut sed nostrum, praesentium veniam?</p>
+          <p class="wow animate fadeInDown"style="padding:18px 245px 15px 245px;font-size:20px;">Contamos con servicios no solo para individuos sino también para otros laboratorios, <br> prepagas, centros de salud y pacientes sin cobertura.</p>
 
         <div class="terceros2">
 
-          <div class="serviciosTerceros wow animate fadeIn" style="background-color:#1B84A1;" data-wow-offset="12" data-wow-duration='2s' data-wow-delay='0.5s'>
+          <div class="serviciosTerceros wow animate fadeIn" style="background-color:#1B84A1;" data-wow-duration='2s' data-wow-delay='0.5s'>
             <img src="Img\serviciosATerceros1.png" style="width:110px;" alt="Estudios">
             <h2 style="padding:10px 50px 0 50px;">Estudios Citogenéticos</h2>
-            <p style="padding:10px 40px 0 40px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse facilis, qui impedit recusandae eos earum itaque, atque commodi, sequi natus laboriosam. Consequuntur excepturi amet ut at deleniti totam tenetur doloribus!</p>
+            <p style="padding:10px 40px 0 40px;">Ofrecemos un amplio rango de servicios especializados en citogenética clínica, prenatal, oncohematológica, entre otros.</p>
             <button> <a style="text-decoration: none;color: white; font-size: 14px; font-weight: 700;"href="Estudios.html">IR A ESTUDIOS</a> </button>
           </div>
 
-          <div class="serviciosTerceros wow animate fadeIn" style="background-color:#07617A;padding-top:80px;" data-wow-offset="12" data-wow-duration='2s' data-wow-delay='1s'>
+          <div class="serviciosTerceros wow animate fadeIn" style="background-color:#07617A;padding-top:80px;" data-wow-duration='2s' data-wow-delay='1s'>
             <img src="Img\serviciosATerceros2.png" style="width:140px;" alt="Lineas-Celulares">
             <h2 style="padding:13px 50px 0 50px;">Caracterización de lineas celulares</h2>
             <p style="padding:11px 40px 0 40px;">Llevamos a cabo caracterización citogenética de: <br> <br> -<strong>Líneas celulares modificadas </strong> humanas o de mamíferos. <br> <br> -<strong>Líneas celulares tumorales </strong>humanas o de mamíferos. </p>
           </div>
 
-          <div class="serviciosTerceros wow animate fadeIn" style="background-color:#003841;" data-wow-offset="12" data-wow-duration='2s' data-wow-delay='1.5s'>
+          <div class="serviciosTerceros wow animate fadeIn" style="background-color:#003841;" data-wow-duration='2s' data-wow-delay='1.5s'>
             <img src="Img\serviciosATerceros3.png" style="width:120px;" alt="Cultivos">
             <h2 style="padding:15px 40px 0 40px;">Preparación de muestras para análisis</h2>
             <p style="padding:12px 40px 0 40px;">Realizamos a pedido de profesionales de la salud, el <strong>procesamiento de muestras </strong> para estudios de FISH y biología molecular en sangre periférica, médula ósea, vellosidades coriales o células de líquido amniótico. <br> <br> Se realizan además <strong>extendidos celulares listos para ser analizados.</strong></p>
@@ -79,6 +90,7 @@
       </footer>
 
       
+      <script src="Estilo/menu.js"></script>
       <script src="Estilo/wow.min.js"></script>
       <script> new WOW().init();</script>
       </body>

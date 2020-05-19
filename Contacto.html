@@ -7,23 +7,35 @@
     <link rel="stylesheet" href="estilo/estilo.css">
     <link rel="stylesheet" href="estilo/mediaqueries.css">
     <link rel="stylesheet" href="estilo/animate.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <link rel="shortcut icon" type="image/png" href="Img/Favicon.png">
     <title>Contacto | Kromos Laboratorio</title>
   </head>
   <body class="animated fadeIn">
+
     <header>
 
-      <a href="Home.html"><img src="Img\Logo.png" alt="LogoKromos"></a> 
-         
-          <nav>
-            <button><a href="Home.html">Inicio </a></button>
+      <a href="Home.html"><img class="animated fadeIn" src="Img\Logo.png" alt="LogoKromos"></a>
+      
+      <div class="wrapper">
+        <div class="container">
+          <div class="hamburger_btn">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+          </div>
+      
+          <nav class="menu">
+                  <button><a href="Home.html">Inicio </a></button>
                   <button><a href="Nosotros.html">Nosotros</a></button>
                   <button><a href="Estudios.html">Estudios</a></button>
-                  <button><a href="ServiciosATerceros.html">Servicios a terceros</a></button>
+                  <button><a href="ServiciosATerceros.html">Servicios a terceros</a></button>                 
                   <button><a href="Contacto.html" class="selected">Contacto</a></button>
           </nav>
+        </div>
+      </div>
 
-</header>
+    </header>
 
       <main>
         <div class='contacto1 animated fadeIn'>
@@ -31,21 +43,21 @@
           <p>no dudes en comunicarte con nosotros:</p>
         </div>
         <div class='contacto2'>
-          <div class="wow fadeIn" data-wow-offset="10" data-wow-duration='2s'>
+          <div class="wow fadeIn" data-wow-duration='2s'>
             <h1 >CÓMO ENCONTRARNOS</h1>
             <br>
-          <p>Horario de Atención: Lunes a viernes de 10:00 a 17:00</p>
-          <p>Dirección: Av. Monroe 2569, PB "F", Belgrano, CABA</p>
-          <p>Teléfono: 4781-0711 / 7503-9578</p>
-          <p>Email: citogeneticakromos@gmail.com</p>
+          <p><strong>Horario de Atención:</strong> Lunes a viernes de 10:00 a 17:00</p>
+          <p><strong>Dirección:</strong> Av. Monroe 2569, PB "F", Belgrano, CABA</p>
+          <p><strong>Teléfono:</strong> 4781-0711 / 7503-9578</p>
+          <p><strong>Email:</strong> citogeneticakromos@gmail.com</p>
           <br><br>
         </div>
           <div>
-          <iframe class="wow fadeIn" data-wow-offset="10" data-wow-duration='2s' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.7785927006535!2d-58.463745585196875!3d-34.55916086264803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb42aeae40bf1%3A0xf92357a338c8e716!2sAv.%20Monroe%202569%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1582090703982!5m2!1ses!2sar" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          <iframe class="wow fadeIn" data-wow-duration='2s' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.7785927006535!2d-58.463745585196875!3d-34.55916086264803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb42aeae40bf1%3A0xf92357a338c8e716!2sAv.%20Monroe%202569%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1582090703982!5m2!1ses!2sar" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
         </div>
       </div>
-      <div class='contacto1 contacto3 wow fadeInDown'data-wow-offset="10"data-wow-duration='1s'>
-        <p>Estamos para ayudarte!</p>
+      <div class='contacto3 wow fadeInDown' data-wow-duration='1s'>
+        <p style="color:#07617A">Estamos para ayudarte!</p>
       </div>
       </main>
 
@@ -70,6 +82,7 @@
       </footer>
 
       
+      <script src="Estilo/menu.js"></script>
       <script src="Estilo/wow.min.js"></script>
       <script> new WOW().init();</script>
     </body>

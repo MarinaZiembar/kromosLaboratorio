@@ -7,21 +7,32 @@
     <link rel="stylesheet" href="estilo/estilo.css">
     <link rel="stylesheet" href="estilo/mediaqueries.css">
     <link rel="stylesheet" href="estilo/animate.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <link rel="shortcut icon" type="image/png" href="Img/Favicon.png">
     <title>Estudios | Kromos Laboratorio</title>
   </head>
   <body class="animated fadeIn">
     <header>
 
-      <a href="Home.html"><img class="animated fadeIn" src="Img\Logo.png" alt="LogoKromos"></a> 
-         
-          <nav>
+      <a href="Home.html"><img class="animated fadeIn" src="Img\Logo.png" alt="LogoKromos"></a>
+      
+      <div class="wrapper">
+        <div class="container">
+          <div class="hamburger_btn">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+          </div>
+      
+          <nav class="menu">
                   <button><a href="Home.html">Inicio </a></button>
                   <button><a href="Nosotros.html">Nosotros</a></button>
                   <button><a href="Estudios.html" class="selected">Estudios</a></button>
-                  <button><a href="ServiciosATerceros.html">Servicios a terceros</a></button>
+                  <button><a href="ServiciosATerceros.html">Servicios a terceros</a></button>                 
                   <button><a href="Contacto.html">Contacto</a></button>
           </nav>
+        </div>
+      </div>
 
 </header>
 
@@ -36,7 +47,7 @@
           <button class="estudiosBoton1 wow animate fadeInLeft" data-wow-duration="1s" data-wow-delay="0.2s">
               <img src="Img\estudios1.png" alt="estudios1">
               <h2>Citogenética Clínica</h2>
-            </button>
+          </button>
             <div class="estudiosDescripcion">
               <ul>
                 <li>Análisis citogenético simple (Cariotipo) en <strong>linfocitos de sangre periférica</strong>.</li>
@@ -45,7 +56,7 @@
               </ul>
             </div>
           
-          <button class="estudiosBoton2 wow animate fadeInLeft" data-wow-duration="1s" data-wow-offset="50">
+          <button class="estudiosBoton2 wow animate fadeInLeft" data-wow-duration="1s" >
               <img src="Img\estudio2.png" alt="estudios2">
               <h2>Estudio de Rupturas Cromosómicas</h2>
           </button>
@@ -55,7 +66,7 @@
               </ul>
             </div>
           
-          <button class="estudiosBoton1 wow animate fadeInLeft"data-wow-duration="1s" data-wow-offset="10">
+          <button class="estudiosBoton1 wow animate fadeInLeft"data-wow-duration="1s" >
               <img src="Img\estudios1.png" alt="estudios1">
               <h2>Citogenética Prenatal</h2>
             </button>
@@ -68,7 +79,7 @@
               </ul>
             </div>
           
-          <button class="estudiosBoton2 wow animate fadeInLeft"data-wow-duration="1s" data-wow-offset="10">
+          <button class="estudiosBoton2 wow animate fadeInLeft"data-wow-duration="1s" >
               <img src="Img\estudio2.png" alt="estudios">
               <h2>Citogenética Oncohematológica</h2>
           </button>
@@ -104,6 +115,8 @@
         <p>© 2020 Kromos Laboratorio de Citogenética | Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik" target="_blank">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank">Flaticon</a> | Web design & development by <a href="https://www.linkedin.com/in/marina-ziembar/" target="_blank">Mar!na</a></p>
       </footer>
 
+      
+      <script src="Estilo/menu.js"></script>
       <script src="Estilo\accordion.js"></script>
       <script src="Estilo/wow.min.js"></script>
       <script> new WOW().init();</script>
