@@ -262,18 +262,22 @@ article{
     display: inline-flex;
     flex-direction: row;
     margin-bottom: 15px;
+    justify-content: space-between;
 }
 
 .sobreNosotros img{
-    width:49.45%;
+    width:49.5%;
     margin: 0;
 }
 
-.sobreNosotros p{
+.sobreNosotros .p{
     background-color:#F0F0F0;
-    width:49.45%;
-    padding: 50px 50px 0 50px;
+    width:49.5%;
     font-size: 22px;
+}
+
+.pTitulo{
+    display: none;
 }
 
 /***NUESTRO EQUIPO***/
