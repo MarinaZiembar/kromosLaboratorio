@@ -2,7 +2,7 @@
 
 /******************PARTIALS********************/
 
-@media (max-width:767px){
+@media (max-width:917px){
 
     /*******HEADER*******/
 
@@ -126,55 +126,60 @@
         justify-content: space-between;
     }
 
+}
 
+@media (max-width:767px){
+
+  
     /**********FOOTERS************/
 
     .footer1{
-        min-height: 70px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-self: baseline;
-        padding:100px 0 100px 0;
-    }
+      min-height: 70px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-self: baseline;
+      padding:100px 0 100px 0;
+  }
 
-    .footer1 div{
-        width:100%;
-        padding:0;
-        display:flex;
-        flex-direction: column;
-        align-items:center;
-        align-self: center;
-        padding-top: 10px;
-    }
+  .footer1 div{
+      width:100%;
+      padding:0;
+      display:flex;
+      flex-direction: column;
+      align-items:center;
+      align-self: center;
+      padding-top: 10px;
+  }
 
-    .footer1 img{
-        height: 30px;
-        padding:5px 0 10px 0;
-    }
+  .footer1 img{
+      height: 30px;
+      padding:5px 0 10px 0;
+  }
 
-    .footer1 p{
-        padding:0px;
-    }
+  .footer1 p{
+      padding:0px;
+  }
 
-    .footer1 a{
-        padding-top: 0%;
-        background-color:none;
-    }
+  .footer1 a{
+      padding-top: 0%;
+      background-color:none;
+  }
 
-    .footer2{
-        height:60px;
-        background-color: #07617A;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+  .footer2{
+      height:60px;
+      background-color: #07617A;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
 
-    .footer2 p{
-    padding-bottom: 15px;
-    padding-left: 10px; 
-    }
+  .footer2 p{
+  padding-bottom: 15px;
+  padding-left: 10px; 
+  }
 }
+
 
 /************************PAGINAS***************************/
 
@@ -298,7 +303,7 @@
       display:flex;
       flex-direction: column;
       margin-bottom: 15px;
-  }
+    }
 
     .sobreNosotros:first-child{
      margin-top: -30px;
@@ -307,25 +312,119 @@
     .sobreNosotros img{
       min-width:100%;
       margin: 0;
-  }
+    }
   
-  .sobreNosotros p{
+    .sobreNosotros p{
       min-width:100%;
       padding: 50px 50px 0 50px;
       font-size: 10px;
-  }
+    }
 
-  .equipoDirectores{
+    .equipoDirectores{
     width:100%;
     flex-direction: column;
     align-items: center;
     margin-top: 110px;
-}
+    }
 
-.miembro{
-  margin-bottom: 140px;
-}
+    .miembro{
+    margin-bottom: 140px;
+    }
 
+    /************HOME**************/
+
+ 
+    /*CAROUSEL*/
+
+  .mySlides{
+    width:100%;
+    height:200px;
+  }
+
+  @supports(object-fit: cover){
+    .mySlides img{
+      height: 126%;
+      object-fit: cover;
+      object-position: center center;
+    }
+  }
+
+  .homediv1{
+    height: 100px;
+    text-align: center;
+    bottom: 5px;
+    font-size: 18px;
+    padding-top: 40px;
+  }
+
+  .homediv1 p{
+    width:85%;
+  }
+
+  .homediv1 p:first-child{
+    padding-bottom: 0px;
+  }
+
+  /*ARTICULO HOME 1*/
+
+  .intro{
+    font-size: 16px;
+    padding: 90px 0px 40px 0px;
+  }
+  .intro p{
+    padding-top: 5px;
+  } 
+
+  /*ARTICULO HOME 2*/
+
+  .titulo{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 20px;
+  }
+
+  .ofrecemos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;  
+    flex-wrap: wrap;
+    margin-bottom:20px;
+  }
+
+  .ofrecemos img{
+    width:90px;
+  }
+
+
+  .ofrecemos2{
+    width: 50%;
+    justify-content:space-evenly;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 30px;
+    padding-top: 5px;
+  } 
+
+  /*ARTICULO HOME 3*/
+
+  @supports(object-fit: cover){
+    .turnos img{
+      height: 200px;
+      object-fit: cover;
+      object-position: center center;
+    }
+  }
+
+  .turnos1{
+    height: 200px;
+    font-size:20px;
+    font-weight: 500;
+  }
+
+  .turnos1 p:first-child{
+    padding-top:70px;
+    padding-bottom: 10px;
+  }
 
 
 }
