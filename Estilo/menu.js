@@ -12,6 +12,10 @@
   if ($(window).width() < 767){
     $('iframe').attr('width','310px')
     .attr('height','250px');
+  }
+  else if($(window).width() > 1500){
+    $('iframe').attr('width','600px')
+    .attr('height','400px');
   }else{
     $('iframe').attr('width','400px')
     .attr('height','300px');

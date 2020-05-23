@@ -7,60 +7,101 @@
     /*******HEADER*******/
 
     .wrapper{
-        position: absolute;
-        top: 31.5%;
-        left: 72.1%;
-        transform: translate(-50%,-50%);
-        z-index: 30;
-      }
-      
-      .wrapper .container{
-        width: 100px;
-        
-      }
-      
-      .wrapper .hamburger_btn{
-        width: 50px;
-        height: 50px;
-        margin: 0 85px 16px;
-        position: relative;
-        cursor: pointer;
-      }
-      
-      .wrapper .hamburger_btn > div{
-        position: absolute;
+      position: absolute;
+      top: 30px;
+      right:0%;
+      z-index:35 ;
+    }
+    
+    .wrapper .container{
+      width: 180px;
+    }
+    
+    .wrapper .hamburger_btn{
+      width: 50px;
+      height: 50px;
+      left:60%;
+      position: relative;
+      cursor: pointer;
+    }
+    
+    .wrapper .hamburger_btn > div{
+      position: absolute;
+      top: 45%;
+      left: 25%;
+      width: 50%;
+      height: 3px;
+      background: #fff;
+      transition: all 0.3s linear;
+    }
+    
+    .wrapper .hamburger_btn .one{
+      top: 25%;
+    }
+    
+    .wrapper .hamburger_btn .three{
+      top: 65%;
+    }
+    
+    .wrapper .container .menu{
+      width: 180px;
+      height: auto;
+      margin: 0 auto;
+      background: #1B84A1;
+      position: relative;
+      opacity: 0;
+      top: -10px;
+      transition: all 0.5s linear;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+    
+    .wrapper .container .menu button{
+      transition: all 0.2s linear;
+    }
+    
+    .wrapper .container .menu button a{
+      padding: 10px;
+      font-size: 12px;
+      transition: all 0.2s linear;
+    }
+    
+    .wrapper .container .menu:before{
+      position: absolute;
+      top: -19px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid #fff;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+    }
+    
+    .wrapper .hamburger_btn.active{
+      transform: rotate(90deg);
+    }
+    
+    .wrapper .hamburger_btn.active .one{
         top: 45%;
-        left: 30%;
-        width: 50%;
-        height: 3px;
-        background: #fff;
-        border-radius: 50px;
-        transition: all 0.3s linear;
-      }
-      
-      .wrapper .hamburger_btn .one{
-        top: 25%;
-      }
-      
-      .wrapper .hamburger_btn .three{
-        top: 65%;
-      }
-      
-      .wrapper .container .menu{
-        width: 150px;
-        border:none;
-        display: flex;
-        flex-direction: column; 
-        height: auto;
-        margin: 0 auto;
-        background:  #1B84A1;
-        position: relative;
-        opacity: 0;
-        top: -10px;
-        transition: all 0.5s linear;
-        display: flex;
-        
-      }
+        left: 25%;
+        transform: rotate(45deg);
+    }
+    
+    .wrapper .hamburger_btn.active .two{
+      opacity: 0;
+    }
+    
+    .wrapper .hamburger_btn.active .three{
+        top: 45%;
+        left: 25%;
+        transform: rotate(-45deg);
+    }
+    
+    .wrapper .container .menu.active{
+      opacity: 1;
+      top: 0px;
+    }  
 
       header nav button{
         border:none;  
@@ -71,59 +112,13 @@
         justify-content: flex-end;
       }
 
-      .wrapper .container .menu button a{
-        padding: 10px;
-        font-size: 12px;
-        display: flex;
-        transition: all 0.2s linear;
-      }
-      
-      .wrapper .container .menu a:before{
-        position: absolute;
-        top: -19px;
-        left: 50%;
-        transform: translateX(-50%);
-        border-top: 10px solid transparent;
-        border-bottom: 10px solid #fff;
-        border-left: 10px solid transparent;
-        border-right: 10px solid transparent;
-      }
-      
-      .wrapper .hamburger_btn.active{
-        transform: rotate(90deg);
-      }
-      
-      .wrapper .hamburger_btn.active .one{
-          top: 45%;
-          left: 25%;
-          transform: rotate(45deg);
-      }
-      
-      .wrapper .hamburger_btn.active .two{
-        opacity: 0;
-      }
-      
-      .wrapper .hamburger_btn.active .three{
-          top: 45%;
-          left: 25%;
-          transform: rotate(-45deg);
-      }
-      
-      .wrapper .container .menu.active{
-        opacity: 1;
-        top: 0px;
-      }
-
-    header img{
-        margin-left: 25px;
-        align-self: center;
-        height: 65px;
-    }
-
-    header{
-        display: flex;
-        flex-direction: row;
+      header{
         justify-content: space-between;
+      }
+
+      header img{
+        margin-left: 25px;
+        height: 65px;
     }
 
 }
@@ -451,5 +446,15 @@
     padding-bottom: 10px;
   }
 
+
+}
+
+/**********CAMBIOS PARA PANTALLAS GRANDES**************/
+
+@media (min-width:1500px){
+
+/***********HOME***********/
+
+.homediv1{}
 
 }
