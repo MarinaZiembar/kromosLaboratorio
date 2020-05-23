@@ -100,7 +100,7 @@
     
     .wrapper .container .menu.active{
       opacity: 1;
-      top: 0px;
+      top: 8px;
     }  
 
       header nav button{
