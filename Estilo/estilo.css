@@ -18,16 +18,23 @@ header {
     background-color: #1B84A1;
     font-size: 16px;
     font-weight: 600;
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     width:100%;
-    justify-content: space-around;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    max-width:100%;
+    justify-content: space-between;
+    align-items:center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    position:sticky;
+    top:0;
+    left:0;
+    z-index:99999999999999999;
    }
 
 header img {
-    height: 90px;
+    height: 50px;
+    margin-left:20px;
 }
 
 /*NAV BAR*/
@@ -39,11 +46,10 @@ nav button{
     border-left: none;
     border-bottom: none;
     border-top: none;
-    border-right: 1.5px solid #003841;
+    border-right: 1.5px solid rgba(255,255,255,0.6);
     text-align: center;
     padding-right: 23px;
     padding-left:23px;
-    margin-top: 35px;
 }
 
 header nav a {
@@ -274,6 +280,13 @@ article{
     background-color:#F0F0F0;
     width:49.5%;
     font-size: 22px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+.sobreNosotros .p p{
+    padding:16px;
 }
 
 .pTitulo{

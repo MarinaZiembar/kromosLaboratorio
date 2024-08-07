@@ -8,7 +8,7 @@
 
     .wrapper{
       position: absolute;
-      top: 30px;
+      top: 72px;
       right:0%;
       z-index:35 ;
     }
@@ -19,10 +19,11 @@
     
     .wrapper .hamburger_btn{
       width: 50px;
-      height: 50px;
-      left:60%;
+      height: 44px;
+      left:65%;
       position: relative;
       cursor: pointer;
+      top:-55px;
     }
     
     .wrapper .hamburger_btn > div{
@@ -48,11 +49,10 @@
       height: auto;
       margin: 0 auto;
       background: #1B84A1;
-      position: relative;
-      opacity: 0;
+      position: absolute;
       top: -10px;
       transition: all 0.5s linear;
-      display: flex;
+      display: none;
       flex-direction: column;
       justify-content: flex-end;
     }
@@ -99,8 +99,8 @@
     }
     
     .wrapper .container .menu.active{
-      opacity: 1;
-      top: 8px;
+      display:flex;
+      top: -3px;
     }  
 
       header nav button{
@@ -117,8 +117,8 @@
       }
 
       header img{
-        margin-left: 25px;
-        height: 65px;
+        margin-left: 20px;
+        height: 40px;
     }
 
 }
@@ -315,11 +315,15 @@
     .sobreNosotros .p{
       display: flex;
       justify-content: center;
+      align-items:center;
       order:2;
       width:100%;
       height: 224px;
-      font-size: 10px;
+      font-size: 14px;
       margin-top:15px;
+    }
+    .mision-vision{
+        padding:10px;
     }
 
     .pTitulo{
@@ -393,6 +397,7 @@
   }
   .intro p{
     padding-top: 5px;
+    padding-inline:16px
   } 
 
   /*ARTICULO HOME 2*/
