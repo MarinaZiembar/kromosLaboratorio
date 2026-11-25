@@ -1,0 +1,23 @@
+# Apache (Bluehost). Redirige las URLs del sitio anterior a las nuevas.
+Options -Indexes
+RewriteEngine On
+RewriteRule ^Home\.html$ / [R=301,L]
+RewriteRule ^Nosotros\.html$ /nosotros/ [R=301,L]
+RewriteRule ^Estudios\.html$ /estudios/ [R=301,L]
+RewriteRule ^ServiciosATerceros\.html$ /servicios-a-terceros/ [R=301,L]
+RewriteRule ^Contacto\.html$ /contacto/ [R=301,L]
+
+ErrorDocument 404 /404.html
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType image/jpeg "access plus 1 month"
+  ExpiresByType font/woff2 "access plus 1 year"
+</IfModule>
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript image/svg+xml
+</IfModule>
